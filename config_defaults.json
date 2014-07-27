@@ -1,0 +1,32 @@
+{
+  "port": 9500,
+  "udp_port": 8086,
+  "lg_iface_base": "http://lg1:81",
+  "earth_pos_url": "http://lg-head:8888/window.json?window_slug=earth_center",
+  "touchscreen": {
+    "default_center": [39.882326, 116.336088],
+    "poi_url": "/touchscreen/poi-defaults.json",
+    "activities": [
+      { "title": "Google Earth", "app": "earth" }
+    ],
+    "show_photospheres": true,
+    "show_zoomctl": true,
+    "show_maptypectl": false,
+    "font_scale": 1.0
+  },
+  
+  "display": {
+    "default_pano": "10011039131107135744500",
+    "zoom": 2,
+    "mode": "flash",
+    "show_links": true,
+	"move_Range": 5
+  },
+  "device": {
+    "device_offset": 16,
+    "type_offset": 8,
+	"code_offset": 10,
+	"value_offset": 12
+  }
+  
+}
